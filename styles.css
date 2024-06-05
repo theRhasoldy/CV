@@ -7,18 +7,19 @@
 }
 
 body {
-  background: linear-gradient(
-    rgba(238, 232, 251, 1) 0%,
-    rgba(255, 255, 255, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  padding: 1rem;
+  background: linear-gradient(rgba(238, 232, 251, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 1) 100%);
 }
 
 li,
 ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
 }
 
 .faded-small {
@@ -36,7 +37,7 @@ ul {
 
 .title {
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 article {
@@ -70,6 +71,7 @@ article p {
   gap: 0.5rem;
   margin-left: 1rem;
   padding: 0;
+
   li {
     list-style: disc;
   }
@@ -78,10 +80,11 @@ article p {
 .skill-list {
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   margin-left: 1rem;
   padding: 0;
+
   li {
     margin: 0;
     padding: 0;
